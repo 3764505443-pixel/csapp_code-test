@@ -92,11 +92,7 @@ Makefile.in
 
 # VS Code
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
+
 
 # CLion / IntelliJ
 .idea/
@@ -168,3 +164,8 @@ $RECYCLE.BIN/
 # 测试输出
 *.test
 test_output/
+
+# 忽略编译生成的可执行文件（无扩展名）
+*
+!*.*
+!*/
