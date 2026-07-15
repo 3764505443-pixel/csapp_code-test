@@ -1,2 +1,2 @@
 # csapp_code-test
-A place where i can test the code form csapp
+A place where i can practice the code form CSAPP.
