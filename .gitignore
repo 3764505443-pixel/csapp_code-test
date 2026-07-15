@@ -90,8 +90,11 @@ Makefile.in
 # IDE / 编辑器
 # ============================================
 
-# VS Code
+# 先显式忽略 .vscode
 .vscode/
+
+# VS Code
+.vscode/*
 
 
 # CLion / IntelliJ
