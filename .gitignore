@@ -1,0 +1,170 @@
+# ============================================
+# C 语言编译产物
+# ============================================
+
+# 可执行文件（无扩展名或 .exe）
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# 目标文件
+*.o
+*.obj
+*.ko
+*.elf
+
+# 静态库
+*.lib
+*.a
+*.la
+*.lo
+
+# 动态库 / 共享库
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# 链接文件
+*.lnk
+
+# ============================================
+# 编译中间文件
+# ============================================
+
+# 预处理文件
+*.i
+*.ii
+
+# 汇编文件
+*.s
+*.S
+
+# 依赖文件
+*.d
+
+# ============================================
+# 调试相关
+# ============================================
+
+# GDB
+*.gdb
+
+# Core dump
+core
+core.*
+vgcore.*
+*.stackdump
+
+# ============================================
+# 构建系统生成文件
+# ============================================
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+CTestTestfile.cmake
+Testing/
+build/
+cmake-build-*/
+
+# Autotools
+Makefile.in
+/aclocal.m4
+/autom4te.cache/
+/config.*
+/configure
+/depcomp
+/install-sh
+/missing
+/stamp-h1
+.deps/
+.libs/
+
+# ============================================
+# IDE / 编辑器
+# ============================================
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# CLion / IntelliJ
+.idea/
+*.iml
+cmake-build-debug/
+cmake-build-release/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj*
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Eclipse
+.settings/
+.cproject
+.project
+
+# ============================================
+# 操作系统文件
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+*~
+.nfs*
+
+# ============================================
+# 其他
+# ============================================
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 备份文件
+*.bak
+*.orig
+
+# 测试输出
+*.test
+test_output/
