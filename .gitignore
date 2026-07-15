@@ -91,7 +91,7 @@ Makefile.in
 # ============================================
 
 # VS Code
-.vscode/*
+.vscode/
 
 
 # CLion / IntelliJ
